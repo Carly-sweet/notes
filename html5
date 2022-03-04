@@ -1,0 +1,82 @@
+HTML入门
+	1.常见浏览器、内核
+		IE
+			Trident渲染引擎
+		火狐
+			gecko渲染引擎
+		谷歌
+			chromium项目
+				Blink渲染引擎
+				V8 javascript引擎
+		safari
+			webkit引擎
+				WebCore渲染引擎
+				JavaScriptCore解析引擎
+		opera
+			Blink渲染引擎
+	2.web标准
+		结构
+		表现
+		行为
+	html骨架
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+	标签
+		头部标签head，标题标签title，主题标签body
+		关系
+			嵌套
+			并列
+		语义化
+			当去掉css后，网页结构依然组织有序
+	字符集（charset）
+		utf-8:最常用的字符集编码方式，包含全世界需要用到的字符，解决乱码
+		隔壁312：简体中文
+		BIG5：繁体中文
+		GBK：包含全部中文字符
+	html标签
+		排版标签
+			标题标签
+				h1-h6
+			段落标签<p></p>
+			水平线标签<hr />
+			换行标签<br />
+			div  span标签没有语义，网页布局主要的两个盒子
+		文本格式化标签(b、i、s、u只有使用没有强调的意思，strong、em、del、ins语义更强烈)
+			加粗：<b></b>  <strong></strong>
+			斜体：<i></i> <em></em>
+			删除线：<s></s> <del></del>
+			下划线：<u></u> <ins><ins/>
+		标签属性
+			<标签名 属性1=“属性值1” 属性n=“属性值n”> 内容 </标签名>
+			采取键值对的形式：key=“value”
+		图像标签
+			<img src="url" />
+				src：url，路劲
+				alt：文本，图片替换文本
+				title：文本，鼠标悬停显示
+				width，height像素
+		链接标签
+			锚点定位:<a href="#id"><a/> ,使用对应的id名标注
+			<base target="_blank" />
+		特殊字符标签
+			&nbsp；  &lt；  &gt；&capy
+		注释标签<!-- -->
+		路劲
+			相对路劲
+			绝对路劲
+		无序列表
+			<ul> <li></li>*n </ul>
+		有序列表
+			<ol> <li></li>*n </ol>
+		自定义列表
+			<dl><dt></dt>    <dd></dd>*n </dl>
